@@ -2,6 +2,13 @@
 # SPDX-License-Identifier: PACARL-1.0
 # Copyright (c) 2026 praisethedevel <xsolutionx@gmail.com>. All Rights Reserved.
 
-DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-export NODE_PATH="/home/joe/projects/solforge-studio/node_modules:${DIR}/../node_modules:${NODE_PATH}"
-exec node "${DIR}/programs-cli.js" "$@"
+TARGET="${BASH_SOURCE[0]}"
+while [ -h "$TARGET" ]; do
+  DIR="$(cd -P "$(dirname "$TARGET")" && pwd)"
+  TARGET="$(readlink "$TARGET")"
+  [[ $TARGET != /* ]] && TARGET="$DIR/$TARGET"
+done
+REPO_BIN_DIR="$(cd -P "$(dirname "$TARGET")" && pwd)"
+
+export NODE_PATH="/home/joe/projects/solforge-studio/node_modules:${REPO_BIN_DIR}/../node_modules:${NODE_PATH}"
+exec node "${REPO_BIN_DIR}/programs-cli.js" "$@"
