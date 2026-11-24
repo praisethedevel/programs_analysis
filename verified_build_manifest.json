@@ -1,7 +1,14 @@
 {
   "verified_build": true,
   "author": "praisethedevel",
+  "contact": "xsolutionx@gmail.com",
   "repository": "https://github.com/praisethedevel/programs_analysis",
+  "cluster_deployments": {
+    "devnet": {
+      "deployer": "DeoN4qmakKDMfGHJ54FzQ4AGBXmNcfZRyuA5uvemsKWP",
+      "status": "ACTIVE_ON_CHAIN"
+    }
+  },
   "toolchain": {
     "host_rustc": "rustc 1.102.0-nightly (9c5648833 2026-11-10)",
     "cargo_build_sbf": "solana-cargo-build-sbf 3.1.10\nplatform-tools v1.52\nrustc 1.89.0",
@@ -15,7 +22,13 @@
       "size_bytes": 17024,
       "sha256": "fc41af0bca21eace8faaa7a85c65f62f2e29039e50c5961d72b1286fbc012561",
       "verification_status": "VERIFIED_MATCH",
-      "security_txt_verified": true
+      "security_txt_verified": true,
+      "idl_path": "idls/custom_token.json",
+      "devnet": {
+        "program_data": "Hy87yPNz6TpndAC9DRxhnDxxXVwtp2TpDPX4bWytbfCs",
+        "last_deployed_slot": 525743223,
+        "explorer_url": "https://explorer.solana.com/address/CShaS9ezrJoEYBXsAk4bsUzL2pbxE14kAadgBCeXS7Z1?cluster=devnet"
+      }
     },
     {
       "name": "CustomSysclock",
@@ -23,7 +36,13 @@
       "size_bytes": 8416,
       "sha256": "a94f612d88e88aa3a2e1c891c999bdae94bd73127d9f50ec3348a9c3c52acc83",
       "verification_status": "VERIFIED_MATCH",
-      "security_txt_verified": true
+      "security_txt_verified": true,
+      "idl_path": "idls/custom_sysclock.json",
+      "devnet": {
+        "program_data": "8t5ofYK9LAWhYhZk3HnDSiKjsfPsVkm2X17aeSnyaGSS",
+        "last_deployed_slot": 525743350,
+        "explorer_url": "https://explorer.solana.com/address/8VB675MfjjiaizM2VDBRQfk8GMKCiZVtMELqGdstgMTK?cluster=devnet"
+      }
     },
     {
       "name": "CustomRAM",
@@ -31,7 +50,13 @@
       "size_bytes": 8488,
       "sha256": "432a511691d09c53fe8cf7c9b16834878a339d498eecd3fa6a9d42cda1996f5f",
       "verification_status": "VERIFIED_MATCH",
-      "security_txt_verified": true
+      "security_txt_verified": true,
+      "idl_path": "idls/custom_ram.json",
+      "devnet": {
+        "program_data": "3CvbgPdUjViYeoPdS5DH3cvAg6fENFCo2VpB4A7UbWaX",
+        "last_deployed_slot": 525743431,
+        "explorer_url": "https://explorer.solana.com/address/5oFB4c7Answx5c2reA9w5u3DGcE1HHw2PfhkXTRFvc3m?cluster=devnet"
+      }
     }
   ]
 }

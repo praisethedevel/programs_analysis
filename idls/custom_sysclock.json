@@ -1,0 +1,54 @@
+{
+  "version": "0.1.0",
+  "name": "custom_sysclock",
+  "instructions": [
+    {
+      "name": "initialize_clock",
+      "accounts": [
+        { "name": "clock", "isMut": true, "isSigner": false },
+        { "name": "authority", "isMut": false, "isSigner": true }
+      ],
+      "args": []
+    },
+    {
+      "name": "tick",
+      "accounts": [
+        { "name": "clock", "isMut": true, "isSigner": false },
+        { "name": "authority", "isMut": false, "isSigner": true }
+      ],
+      "args": [
+        { "name": "slot", "type": "u64" },
+        { "name": "unix_timestamp_ms", "type": "i64" },
+        { "name": "advance_epoch", "type": "u8" }
+      ]
+    },
+    {
+      "name": "read_clock",
+      "accounts": [
+        { "name": "clock", "isMut": false, "isSigner": false }
+      ],
+      "args": []
+    }
+  ],
+  "accounts": [
+    {
+      "name": "ClockState",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          { "name": "is_initialized", "type": "u8" },
+          { "name": "is_frozen", "type": "u8" },
+          { "name": "padding", "type": { "array": ["u8", 6] } },
+          { "name": "slot", "type": "u64" },
+          { "name": "epoch", "type": "u64" },
+          { "name": "unix_timestamp_ms", "type": "i64" },
+          { "name": "tick_sequence", "type": "u64" },
+          { "name": "authority", "type": "publicKey" }
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "address": "8VB675MfjjiaizM2VDBRQfk8GMKCiZVtMELqGdstgMTK"
+  }
+}

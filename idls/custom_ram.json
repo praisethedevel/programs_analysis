@@ -1,0 +1,51 @@
+{
+  "version": "0.1.0",
+  "name": "custom_ram",
+  "instructions": [
+    {
+      "name": "init_ram",
+      "accounts": [
+        { "name": "ram", "isMut": true, "isSigner": false },
+        { "name": "owner", "isMut": false, "isSigner": true }
+      ],
+      "args": []
+    },
+    {
+      "name": "write_ram",
+      "accounts": [
+        { "name": "ram", "isMut": true, "isSigner": false },
+        { "name": "owner", "isMut": false, "isSigner": true }
+      ],
+      "args": [
+        { "name": "offset", "type": "u32" },
+        { "name": "data", "type": "bytes" }
+      ]
+    },
+    {
+      "name": "lock_ram",
+      "accounts": [
+        { "name": "ram", "isMut": true, "isSigner": false },
+        { "name": "owner", "isMut": false, "isSigner": true }
+      ],
+      "args": []
+    }
+  ],
+  "accounts": [
+    {
+      "name": "RamHeader",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          { "name": "is_initialized", "type": "u8" },
+          { "name": "is_locked", "type": "u8" },
+          { "name": "padding", "type": { "array": ["u8", 2] } },
+          { "name": "allocated_size", "type": "u32" },
+          { "name": "owner", "type": "publicKey" }
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "address": "5oFB4c7Answx5c2reA9w5u3DGcE1HHw2PfhkXTRFvc3m"
+  }
+}

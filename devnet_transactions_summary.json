@@ -1,0 +1,48 @@
+{
+  "network": "devnet",
+  "payer": "DeoN4qmakKDMfGHJ54FzQ4AGBXmNcfZRyuA5uvemsKWP",
+  "token": {
+    "initMint": {
+      "sig": "zNVdPTKEsM9ofyWU6e7akN7B7naySPz2688wo8YweRZJ2CGxvuFibEyGfkHQdnqpBr9F7WiCW4EuVf1dvK9qjjN",
+      "mint": "5kiTtV7xsa9dZ1YtJP4QckEFUsd8fmcDAeRUgsUEEw4y"
+    },
+    "initAlice": {
+      "sig": "4hxQ4hqtcgJcYQFPLZEkwE83nVmZ1FFqUQ1XUZbDJE4LeW4nqAm8G8umwhTruFnpxKsHeVUsKrs2Me1wLo21uTxe",
+      "account": "GgG3mjYy7GjgHABuVkowtgh3cAo7Z6tD7Y1r25vDkvw"
+    },
+    "initBob": {
+      "sig": "4xFHAFshb4b6QUycUUof9jyPcYZF1y1EZRNKwpWrzj3M9dEtABdnAy3Ykjzk4EDhpSzCfvShbCNopRzJ5JjkP8iU",
+      "account": "DtYuUziSeC5qTNkLiFfKmCahiEaW6bAycwgrN2JQpY8k"
+    },
+    "mintTo": {
+      "sig": "3MjXMxktxpirh9UVnHPP5uLHHEbchxZnPZh2AkxhqHtjC4ETHSCYUqnHQtd1nkkVzgLJQgzZ2eSB6EjZ6Dvkyjqw",
+      "amount": 1000000
+    },
+    "transfer": {
+      "sig": "4cNmJpXJPdLdu92v7VtBdBjqXQTuczHkcJGPaEaJU4Tbma5e6YyjXWFkMXwrzcAeHR72MDVTQotBgENkW3h7FBmT",
+      "amount": 500000,
+      "expectedFee": 5000,
+      "expectedReceived": 495000
+    }
+  },
+  "sysclock": {
+    "init": {
+      "sig": "2UEcRXGQ8Uy9gmshPDj1ZcCFBEPT6PkAUzUAaJWmvVQMefg8rM61LgyQ18Px13xWoAg9rHYwZjVDgwCbX7ET913P",
+      "account": "41kbhg7tjk4KRUuDZP1yidTGMHJ6BeZ6Quup1DMjjcPh"
+    },
+    "tick": {
+      "sig": "5T6qBqLhYxH7GL4i9zJC67MLzKjZEpvwVvEH1z3qZjc85tDmsfqcAahqH7QHtn9mpLtWoidi9zKhtoyTuzxX2ziS"
+    }
+  },
+  "ram": {
+    "init": {
+      "sig": "4gjXeX3t7hzg8ruziNHmcqoMEFPLEjB9uX4bFVxLPjjAVZxXW3BwuE2bPHKDG4cdaAVR7ttQ6C1W6B2JRiohcjKG",
+      "account": "GoGvCC8S7sxa8VbdhMP6pNjihYUFrQVuAaMJyNsk3cXo"
+    },
+    "write": {
+      "sig": "644TcGoD2pHZsCnVFuhYxe1ZXK9faca617dhcpmNs6HUEijMeMhZnZMGXeg1RkwxV3WcTpFCmFnPyw25XeYjTGCX",
+      "offset": 16,
+      "payload": "DEEPMIND_ANTIGRAVITY_CUSTOM_RAM_V1_VERIFIED_DEVNET"
+    }
+  }
+}

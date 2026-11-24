@@ -1,0 +1,109 @@
+{
+  "version": "0.1.0",
+  "name": "custom_token",
+  "instructions": [
+    {
+      "name": "initialize_mint",
+      "accounts": [
+        { "name": "mint", "isMut": true, "isSigner": false },
+        { "name": "payer", "isMut": false, "isSigner": true }
+      ],
+      "args": [
+        { "name": "decimals", "type": "u8" },
+        { "name": "fee_bps", "type": "u16" }
+      ]
+    },
+    {
+      "name": "initialize_account",
+      "accounts": [
+        { "name": "account", "isMut": true, "isSigner": false },
+        { "name": "mint", "isMut": false, "isSigner": false },
+        { "name": "owner", "isMut": false, "isSigner": false }
+      ],
+      "args": []
+    },
+    {
+      "name": "mint_to",
+      "accounts": [
+        { "name": "mint", "isMut": true, "isSigner": false },
+        { "name": "destination", "isMut": true, "isSigner": false },
+        { "name": "authority", "isMut": false, "isSigner": true }
+      ],
+      "args": [
+        { "name": "amount", "type": "u64" }
+      ]
+    },
+    {
+      "name": "transfer",
+      "accounts": [
+        { "name": "source", "isMut": true, "isSigner": false },
+        { "name": "destination", "isMut": true, "isSigner": false },
+        { "name": "mint", "isMut": false, "isSigner": false },
+        { "name": "authority", "isMut": false, "isSigner": true }
+      ],
+      "args": [
+        { "name": "amount", "type": "u64" }
+      ]
+    },
+    {
+      "name": "burn",
+      "accounts": [
+        { "name": "account", "isMut": true, "isSigner": false },
+        { "name": "mint", "isMut": true, "isSigner": false },
+        { "name": "authority", "isMut": false, "isSigner": true }
+      ],
+      "args": [
+        { "name": "amount", "type": "u64" }
+      ]
+    },
+    {
+      "name": "freeze_account",
+      "accounts": [
+        { "name": "account", "isMut": true, "isSigner": false },
+        { "name": "mint", "isMut": false, "isSigner": false },
+        { "name": "authority", "isMut": false, "isSigner": true }
+      ],
+      "args": []
+    },
+    {
+      "name": "thaw_account",
+      "accounts": [
+        { "name": "account", "isMut": true, "isSigner": false },
+        { "name": "mint", "isMut": false, "isSigner": false },
+        { "name": "authority", "isMut": false, "isSigner": true }
+      ],
+      "args": []
+    }
+  ],
+  "accounts": [
+    {
+      "name": "Mint",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          { "name": "mint_authority", "type": "publicKey" },
+          { "name": "supply", "type": "u64" },
+          { "name": "decimals", "type": "u8" },
+          { "name": "is_initialized", "type": "bool" },
+          { "name": "fee_basis_points", "type": "u16" },
+          { "name": "freeze_authority", "type": "publicKey" }
+        ]
+      }
+    },
+    {
+      "name": "Account",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          { "name": "mint", "type": "publicKey" },
+          { "name": "owner", "type": "publicKey" },
+          { "name": "amount", "type": "u64" },
+          { "name": "state", "type": "u8" }
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "address": "CShaS9ezrJoEYBXsAk4bsUzL2pbxE14kAadgBCeXS7Z1"
+  }
+}
