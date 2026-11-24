@@ -1,0 +1,99 @@
+# PRAISETHEDEVEL UNIVERSAL PROPRIETARY ARCHITECTURE, COMPULSORY ATTRIBUTION, AND COMMERCIAL ROYALTY LICENSE (PACARL-1.0)
+Copyright (c) 2026 praisethedevel <xsolutionx@gmail.com>. All Rights Reserved.
+
+---
+
+### PREAMBLE & APPLICATION SCOPE
+This License ("PACARL-1.0") universally governs any and all repositories, source code, 
+compiled binaries, smart contracts, bytecode, schemas, protocols, architectural specifications, 
+algorithms, mathematical formulations, documentation, and digital assets authored, maintained, 
+or published by "praisethedevel" (the "Author"), whether present, historical, or future 
+(collectively designated as the "Software").
+
+By cloning, fetching, inspecting, compiling, referencing, importing, wrapping, deploying, 
+or executing any portion of the Software, you irrevocably accept and agree to be legally bound 
+by the terms, covenants, and remedies set forth herein.
+
+---
+
+### SECTION 1: NON-COMMERCIAL & EVALUATIVE GRANT
+Subject to full compliance with Section 2 and Section 3, the Author grants to any natural or legal person 
+(the "Licensee") a limited, revocable, non-exclusive, non-transferable, royalty-free license to:
+  (a) Privately audit, inspect, decompile, and compile the Software in local, non-public environments;
+  (b) Execute the Software strictly in isolated, non-production test environments, testnets, or sandboxes;
+  (c) Conduct academic, cryptographic, or security research, provided results are published without 
+      commercial sponsorship or monetized gating.
+
+---
+
+### SECTION 2: MANDATORY BILATERAL ENGAGEMENT, POSITIVE RESPONSE & INVIOLABLE ATTRIBUTION
+As an express, mandatory condition precedent to exercising any right under Section 1 or Section 3:
+  1. **Compulsory Written Notice & Unilateral Transmission Insufficiency**:
+     The Licensee MUST transmit formal notice to the Author via electronic mail at `xsolutionx@gmail.com` 
+     prior to any public deployment, distribution, or derivative integration. 
+     **UNILATERAL TRANSMISSION ALONE DOES NOT SATISFY THIS REQUIREMENT.** 
+     Specifically, sending an email that is filtered, delivered to spam, discarded, or unread by the Author 
+     constitutes ZERO legal notice and confers ABSOLUTELY NO RIGHTS under this License.
+  2. **Mandatory Positive Confirmation & Bilateral Engagement**:
+     Authorization is operative ONLY IF AND WHEN:
+       (i) The Author transmits an affirmative, written electronic confirmation directly back to the Licensee 
+           from `xsolutionx@gmail.com` explicitly acknowledging receipt; AND
+       (ii) If demanded by the Author at his sole discretion, the Licensee schedules, attends, and completes 
+           a mandatory one-on-one formal intake and onboarding session ("Client Session") with the Author 
+           to inspect intended deployment architecture, compliance bounds, and commercial terms.
+     Absent such explicit written confirmation and successful completion of any requested Client Session, 
+     the Licensee possesses ZERO license, and any deployment constitutes willful copyright infringement.
+  3. **Inviolable Provenance & Moral Rights**:
+     The Licensee shall retain, in all source files, compiled binary `.rodata` sections, security metadata 
+     manifests (including RFC 9116 / Neodyme security.txt), user interfaces, API documentation, and package 
+     manifests, conspicuous attribution designating `praisethedevel <xsolutionx@gmail.com>` as the original 
+     architect and author.
+  4. **Strict Prohibition Against Plagiarism / Re-branding**:
+     The Licensee shall not rename, re-license, wrap, fork, obfuscate, or otherwise misrepresent the Software 
+     or its underlying architectural logic as their own original work or that of any third-party entity.
+
+---
+
+### SECTION 3: COMMERCIAL USE PROHIBITION & COMPULSORY ROYALTY COVENANT
+  1. **Commercial Exploitation Defined**: Any deployment, execution, integration, or utilization of the 
+     Software (or any derivative or substantial reproduction thereof) that directly or indirectly:
+       (i) Generates enterprise revenue, subscription fees, advisory income, or software-as-a-service billing;
+       (ii) Powers any public blockchain mainnet smart contract, automated market maker, protocol liquidity pool, 
+            staking mechanism, sequencer, indexer, or fee-extracting pipeline;
+       (iii) Facilitates the minting, distribution, presale, or launch of tradeable digital assets or tokens; or
+       (iv) Serves as proprietary infrastructure for any for-profit enterprise, venture fund, or DAO,
+     constitutes "Commercial Exploitation."
+  2. **Express Prohibition Without Executed Agreement**: Commercial Exploitation without a fully executed, 
+     bilateral Commercial Royalty Agreement signed by the Author is STRICTLY PROHIBITED.
+  3. **Compulsory Equitable Remuneration**: In the event of unauthorized Commercial Exploitation, 
+     the Licensee covenants and agrees that the Author is entitled to:
+       (i) Immediate equitable disgorgement of all gross revenues, transaction fees, protocol revenue, 
+           minted token allocations, and proceeds generated through the use of the Software;
+       (ii) A continuous, mandatory royalty of not less than thirty percent (30%) of all gross transactional volume 
+           or protocol fee capture; and
+       (iii) Maximum statutory, compensatory, and exemplary damages under applicable intellectual property laws, 
+           including willful copyright infringement under 17 U.S.C. § 504(c).
+
+---
+
+### SECTION 4: ENFORCEMENT, PERSONAL JURISDICTION & DIRECT IN-PERSON SERVICE
+  1. **Direct Personal Service & Accountability**: Any breach of this License represents a willful, bad-faith 
+     appropriation of intellectual property. The Licensee expressly and irrevocably waives any defense of 
+     improper service or lack of personal jurisdiction, and explicitly consents to direct, in-person formal 
+     delivery of legal process, cease-and-desist mandates, and court summons at any physical domicile, 
+     registered office, co-working space, or location where the Licensee or its principals reside or conduct business.
+  2. **Equitable & Injunctive Relief**: The Licensee acknowledges that unauthorized exploitation causes 
+     irreparable harm for which monetary compensation alone is insufficient. The Author is unconditionally 
+     entitled to seek and obtain preliminary and permanent injunctive relief, emergency asset freeze orders 
+     against corporate and on-chain treasury wallets, and forensic discovery without the requirement of posting bond.
+  3. **Attorneys' Fees & Enforcement Expenses**: The Licensee shall fully indemnify and reimburse the Author 
+     for all legal fees, forensic audit fees, private investigation costs, travel expenses, and disbursements 
+     incurred in enforcing this License against any infringement.
+
+---
+
+### SECTION 5: DISCLAIMER OF WARRANTIES & LIMITATION OF LIABILITY
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT 
+NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. 
+IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, OR CONSEQUENTIAL 
+DAMAGES ARISING FROM THE USE OR INABILITY TO USE THE SOFTWARE.

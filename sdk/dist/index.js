@@ -1,4 +1,8 @@
 "use strict";
+// SPDX-License-Identifier: PACARL-1.0
+// Copyright (c) 2026 praisethedevel <xsolutionx@gmail.com>. All Rights Reserved.
+// Governed by the Praisethedevel Universal Architecture, Compulsory Attribution & Commercial Royalty License.
+// Non-commercial / evaluation use only. Commercial exploitation strictly requires prior written agreement.
 var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
     var desc = Object.getOwnPropertyDescriptor(m, k);

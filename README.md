@@ -1,7 +1,7 @@
 # Solana High-Performance Zero-Copy sBPF Program Suite
 
 [![Build & Verify](https://github.com/praisethedevel/programs_analysis/actions/workflows/verify.yml/badge.svg)](https://github.com/praisethedevel/programs_analysis/actions)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: PACARL-1.0](https://img.shields.io/badge/License-PACARL--1.0-red.svg)](https://github.com/praisethedevel/programs_analysis/blob/main/LICENSE)
 [![Neodyme security.txt](https://img.shields.io/badge/security.txt-Neodyme%20v1%20Compliant-brightgreen)](https://github.com/praisethedevel/programs_analysis/blob/main/SECURITY.md)
 [![Solana Devnet](https://img.shields.io/badge/Solana-Devnet%20Verified-blue)](https://explorer.solana.com/address/CShaS9ezrJoEYBXsAk4bsUzL2pbxE14kAadgBCeXS7Z1?cluster=devnet)
 
@@ -158,4 +158,8 @@ const ix = tokenClient.createInitMintInstruction(mintPubkey, payerPubkey, 6, 100
 ---
 
 ## ⚖️ License
-MIT License. Authored by [praisethedevel](https://github.com/praisethedevel) (`xsolutionx@gmail.com`).
+Governed by the **Praisethedevel Universal Proprietary Architecture, Compulsory Attribution, and Commercial Royalty License ([PACARL-1.0](https://github.com/praisethedevel/programs_analysis/blob/main/LICENSE))**.
+
+- **Non-Commercial / Academic / Evaluative Use**: Permitted strictly under Section 1, subject to mandatory pre-deployment written notice, positive confirmation from the Author (`xsolutionx@gmail.com`), and full unmitigated attribution.
+- **Commercial Exploitation**: Expressly prohibited without a bilateral commercial agreement and mandatory royalty contract.
+- **Copyright (c) 2026 praisethedevel (`xsolutionx@gmail.com`). All Rights Reserved.**

@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: PACARL-1.0
+# Copyright (c) 2026 praisethedevel <xsolutionx@gmail.com>. All Rights Reserved.
+# Governed by the Praisethedevel Universal Architecture, Compulsory Attribution & Commercial Royalty License.
+# Non-commercial / evaluation use only. Commercial exploitation strictly requires prior written agreement.
 """
 Comprehensive Analysis & Forensic Report Generator for Solana sBPF Binaries
 Targets: ATokenGP.so, Feat1YXH.so, Memo1Uhk.so, Memo4c2p.so, MemoSq4g.so, Tokenkeg.so, TokenzQd.so

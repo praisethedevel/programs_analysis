@@ -1,4 +1,8 @@
 "use strict";
+// SPDX-License-Identifier: PACARL-1.0
+// Copyright (c) 2026 praisethedevel <xsolutionx@gmail.com>. All Rights Reserved.
+// Governed by the Praisethedevel Universal Architecture, Compulsory Attribution & Commercial Royalty License.
+// Non-commercial / evaluation use only. Commercial exploitation strictly requires prior written agreement.
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.CustomRAMClient = exports.RAM_HEADER_SIZE = exports.RAM_PROGRAM_ID = void 0;
 const web3_js_1 = require("@solana/web3.js");

@@ -17,7 +17,7 @@
     "ram"
   ],
   "author": "praisethedevel <xsolutionx@gmail.com>",
-  "license": "MIT",
+  "license": "PACARL-1.0",
   "peerDependencies": {
     "@solana/web3.js": "^1.95.0 || ^2.0.0 || ^3.0.0"
   },

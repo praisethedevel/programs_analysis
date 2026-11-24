@@ -1,4 +1,8 @@
 #![cfg_attr(target_os = "solana", no_std)]
+// SPDX-License-Identifier: PACARL-1.0
+// Copyright (c) 2026 praisethedevel <xsolutionx@gmail.com>. All Rights Reserved.
+// Governed by the Praisethedevel Universal Architecture, Compulsory Attribution & Commercial Royalty License.
+// Non-commercial / evaluation use only. Commercial exploitation strictly requires prior written agreement.
 
 #[cfg(target_os = "solana")]
 #[panic_handler]
