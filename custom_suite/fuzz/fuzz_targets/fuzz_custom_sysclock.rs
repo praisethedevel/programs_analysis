@@ -1,4 +1,8 @@
 #![no_main]
+// SPDX-License-Identifier: PACARL-1.0
+// Copyright (c) 2026 praisethedevel <xsolutionx@gmail.com>. All Rights Reserved.
+// Governed by the Praisethedevel Universal Architecture, Compulsory Attribution & Commercial Royalty License.
+// Non-commercial / evaluation use only. Commercial exploitation strictly requires prior written agreement.
 use libfuzzer_sys::fuzz_target;
 
 const VALID_CODES: &[u64] = &[0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
