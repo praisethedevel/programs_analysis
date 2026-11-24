@@ -3,10 +3,12 @@
   "author": "praisethedevel",
   "contact": "xsolutionx@gmail.com",
   "repository": "https://github.com/praisethedevel/programs_analysis",
+  "license": "PACARL-1.0",
   "cluster_deployments": {
     "devnet": {
       "deployer": "DeoN4qmakKDMfGHJ54FzQ4AGBXmNcfZRyuA5uvemsKWP",
-      "status": "ACTIVE_ON_CHAIN"
+      "status": "ACTIVE_ON_CHAIN",
+      "verification_registry": "OtterSec / Anza On-Chain Verification Standard (solana-verify v0.5.2)"
     }
   },
   "toolchain": {
@@ -21,12 +23,15 @@
       "program_id": "CShaS9ezrJoEYBXsAk4bsUzL2pbxE14kAadgBCeXS7Z1",
       "size_bytes": 17024,
       "sha256": "fc41af0bca21eace8faaa7a85c65f62f2e29039e50c5961d72b1286fbc012561",
+      "solana_verify_executable_hash": "e1b0064061b7dd976cc2da8ada8ac3e474d8f46bc0e20b968af008ae27e445c4",
       "verification_status": "VERIFIED_MATCH",
       "security_txt_verified": true,
       "idl_path": "idls/custom_token.json",
       "devnet": {
         "program_data": "Hy87yPNz6TpndAC9DRxhnDxxXVwtp2TpDPX4bWytbfCs",
         "last_deployed_slot": 525743223,
+        "verification_pda": "7rSjg3oqw4SfNZfZv22FBhmRK8j4PcdKmBByNGn6AJW2",
+        "verification_tx": "5GsnhP6ZtnpXaqGPtRgKZ9XMURRRkVWNx8yQEt7kSqcDBejBQbPR37oLdqWKhUCg3CCrwSxUTBYvjdBfgdmhGaC7",
         "explorer_url": "https://explorer.solana.com/address/CShaS9ezrJoEYBXsAk4bsUzL2pbxE14kAadgBCeXS7Z1?cluster=devnet"
       }
     },
@@ -35,12 +40,15 @@
       "program_id": "8VB675MfjjiaizM2VDBRQfk8GMKCiZVtMELqGdstgMTK",
       "size_bytes": 8416,
       "sha256": "a94f612d88e88aa3a2e1c891c999bdae94bd73127d9f50ec3348a9c3c52acc83",
+      "solana_verify_executable_hash": "d9286bc5c3e4569061c34654bfc9d42e97063be1a61fc220ea18dcb5563b6798",
       "verification_status": "VERIFIED_MATCH",
       "security_txt_verified": true,
       "idl_path": "idls/custom_sysclock.json",
       "devnet": {
         "program_data": "8t5ofYK9LAWhYhZk3HnDSiKjsfPsVkm2X17aeSnyaGSS",
         "last_deployed_slot": 525743350,
+        "verification_pda": "BhauT1ZNbbNZPuGZT3Hq6YfSX1ByWhpW83Dm5xmM6QXb",
+        "verification_tx": "3MHBWmayQAXAkk33vR794aN2ijV1vCUeJJopVHPfTvWPmj24DJSSo2Gu5mDGxzqWctqAwRNv34Qd1TFuXPZHFbVz",
         "explorer_url": "https://explorer.solana.com/address/8VB675MfjjiaizM2VDBRQfk8GMKCiZVtMELqGdstgMTK?cluster=devnet"
       }
     },
@@ -49,12 +57,15 @@
       "program_id": "5oFB4c7Answx5c2reA9w5u3DGcE1HHw2PfhkXTRFvc3m",
       "size_bytes": 8488,
       "sha256": "432a511691d09c53fe8cf7c9b16834878a339d498eecd3fa6a9d42cda1996f5f",
+      "solana_verify_executable_hash": "70546338e2ce489d548307b28dee6794866275af8060208f1356e04c7d502571",
       "verification_status": "VERIFIED_MATCH",
       "security_txt_verified": true,
       "idl_path": "idls/custom_ram.json",
       "devnet": {
         "program_data": "3CvbgPdUjViYeoPdS5DH3cvAg6fENFCo2VpB4A7UbWaX",
         "last_deployed_slot": 525743431,
+        "verification_pda": "4cbd8y5yjCKzFWpX9jrHa9eXg1My4aRZhTvPtErMGsyi",
+        "verification_tx": "46jWvQ7UjvWLKY9FcfiG2QxdJbvZAk7g1eHHKq7hZYQMruPfpZXo5FTcjq4H1y1TgzHLnBdncDs8yDtKL2qt3hcu",
         "explorer_url": "https://explorer.solana.com/address/5oFB4c7Answx5c2reA9w5u3DGcE1HHw2PfhkXTRFvc3m?cluster=devnet"
       }
     }

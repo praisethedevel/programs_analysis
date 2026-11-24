@@ -9,16 +9,21 @@ A suite of production-grade, zero-copy, memory-safe Solana sBPF on-chain program
 
 ---
 
-## 🚀 Live Solana Devnet Deployments
+## 🚀 Live Solana Devnet Deployments & Verified PDAs
 
-| Program | Program ID | Byte Size | Devnet Explorer |
+| Program | Program ID | Verification PDA (OtterSec/Anza) | Devnet Explorer |
 |---|---|---|---|
-| **CustomToken** | `CShaS9ezrJoEYBXsAk4bsUzL2pbxE14kAadgBCeXS7Z1` | 17,024 B | [Explorer Link](https://explorer.solana.com/address/CShaS9ezrJoEYBXsAk4bsUzL2pbxE14kAadgBCeXS7Z1?cluster=devnet) |
-| **CustomSysclock** | `8VB675MfjjiaizM2VDBRQfk8GMKCiZVtMELqGdstgMTK` | 8,416 B | [Explorer Link](https://explorer.solana.com/address/8VB675MfjjiaizM2VDBRQfk8GMKCiZVtMELqGdstgMTK?cluster=devnet) |
-| **CustomRAM** | `5oFB4c7Answx5c2reA9w5u3DGcE1HHw2PfhkXTRFvc3m` | 8,488 B | [Explorer Link](https://explorer.solana.com/address/5oFB4c7Answx5c2reA9w5u3DGcE1HHw2PfhkXTRFvc3m?cluster=devnet) |
+| **CustomToken** | `CShaS9ezrJoEYBXsAk4bsUzL2pbxE14kAadgBCeXS7Z1` | `7rSjg3oqw4SfNZfZv22FBhmRK8j4PcdKmBByNGn6AJW2` | [Explorer Link](https://explorer.solana.com/address/CShaS9ezrJoEYBXsAk4bsUzL2pbxE14kAadgBCeXS7Z1?cluster=devnet) |
+| **CustomSysclock** | `8VB675MfjjiaizM2VDBRQfk8GMKCiZVtMELqGdstgMTK` | `BhauT1ZNbbNZPuGZT3Hq6YfSX1ByWhpW83Dm5xmM6QXb` | [Explorer Link](https://explorer.solana.com/address/8VB675MfjjiaizM2VDBRQfk8GMKCiZVtMELqGdstgMTK?cluster=devnet) |
+| **CustomRAM** | `5oFB4c7Answx5c2reA9w5u3DGcE1HHw2PfhkXTRFvc3m` | `4cbd8y5yjCKzFWpX9jrHa9eXg1My4aRZhTvPtErMGsyi` | [Explorer Link](https://explorer.solana.com/address/5oFB4c7Answx5c2reA9w5u3DGcE1HHw2PfhkXTRFvc3m?cluster=devnet) |
 
-- **Deployer / Upgrade Authority**: `DeoN4qmakKDMfGHJ54FzQ4AGBXmNcfZRyuA5uvemsKWP`
+- **Deployer / Verification Signer**: `DeoN4qmakKDMfGHJ54FzQ4AGBXmNcfZRyuA5uvemsKWP`
 - **Security Contact**: `xsolutionx@gmail.com` ([Neodyme RFC 9116](https://github.com/praisethedevel/programs_analysis/blob/main/security.txt))
+
+Inspect the live on-chain verification PDA with `solana-verify`:
+```bash
+solana-verify get-program-pda --program-id CShaS9ezrJoEYBXsAk4bsUzL2pbxE14kAadgBCeXS7Z1 -s DeoN4qmakKDMfGHJ54FzQ4AGBXmNcfZRyuA5uvemsKWP -u devnet
+```
 
 ---
 
