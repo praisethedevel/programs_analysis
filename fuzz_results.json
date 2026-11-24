@@ -1,0 +1,59 @@
+{
+  "fuzzer": "High-Throughput Pseudorandom Zero-Copy SBPF Mutation Fuzzer",
+  "iterations_total": 300000,
+  "duration_ms": 100.94,
+  "exec_rate_per_sec": 2972113,
+  "total_crashes": 0,
+  "total_invariants_violated": 0,
+  "targets": {
+    "CustomToken": {
+      "iterations": 100000,
+      "duration_ms": 55.08,
+      "exec_rate_per_sec": 1815427,
+      "crashes": 0,
+      "return_code_distribution": {
+        "SUCCESS (0)": 5,
+        "INVALID_INSTRUCTION (1)": 0,
+        "NOT_ENOUGH_ACCOUNTS (2)": 24727,
+        "MISSING_SIGNER (3)": 4008,
+        "ALREADY_INITIALIZED (4)": 0,
+        "UNINITIALIZED (5)": 4258,
+        "INSUFFICIENT_FUNDS (6)": 0,
+        "ACCOUNT_FROZEN (7)": 0,
+        "UNAUTHORIZED (8)": 0,
+        "OVERFLOW (9)": 0
+      }
+    },
+    "CustomSysclock": {
+      "iterations": 100000,
+      "duration_ms": 19.03,
+      "exec_rate_per_sec": 5256155,
+      "crashes": 0,
+      "return_code_distribution": {
+        "SUCCESS (0)": 4469,
+        "INVALID_INSTRUCTION (1)": 59566,
+        "NOT_ENOUGH_ACCOUNTS (2)": 24737,
+        "MISSING_SIGNER (3)": 3380,
+        "ALREADY_INITIALIZED (4)": 0,
+        "UNINITIALIZED (5)": 6190,
+        "UNAUTHORIZED (6)": 563
+      }
+    },
+    "CustomRAM": {
+      "iterations": 100000,
+      "duration_ms": 26.66,
+      "exec_rate_per_sec": 3751639,
+      "crashes": 0,
+      "return_code_distribution": {
+        "SUCCESS (0)": 3,
+        "INVALID_INSTRUCTION (1)": 66067,
+        "NOT_ENOUGH_ACCOUNTS (2)": 24899,
+        "MISSING_SIGNER (3)": 3588,
+        "ALREADY_INITIALIZED (4)": 0,
+        "UNINITIALIZED (5)": 2207,
+        "UNAUTHORIZED (6)": 0,
+        "OUT_OF_BOUNDS (7)": 1120
+      }
+    }
+  }
+}

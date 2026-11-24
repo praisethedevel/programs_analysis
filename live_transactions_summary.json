@@ -1,0 +1,76 @@
+{
+  "token": {
+    "initMint": {
+      "sig": "5D34eDPHsD5oUGqQmJuKfhnc38DDYcNC7vhhHHrMaQo9gRw9nWYBwEwnTwWtUajBsMmExgM1tpNZ3dM1DvJkKiDd",
+      "mint": "J4TjfH4VUbydj7EhBa2HtnrLUTA9SjX99AgY5yTGKQQN"
+    },
+    "initAlice": {
+      "sig": "3bcJNGrYK1JTx3Qi9iRyqi5R1vTAySGHncgscR3Qey5oJFqjTafHnRBrPz8x2fmXkvxLaHfS8uoKGzG8HqBxtP2B",
+      "account": "CQ6iMEywaDtqmLZiUdgTekL4Eq576JMufpoYGSH3B5g9"
+    },
+    "initBob": {
+      "sig": "8QsmjrSyF2c8mHZi9tDu1XB2gfPE84qaXvE89gffSvgYg8DvgjqdC1DXM5PaW26Y9ASPNbv1AwkSrA2V5St2TG2",
+      "account": "5jUpC4uWHxJKkTN2NTwYiXZcy7bVebAN2nFM6vf73gN6"
+    },
+    "mintTo": {
+      "sig": "4J9F6yV4v3dXfSevMxzgGx7toDDsVKK2kRMQ2YxX2GAmkVkjChCiYuuDjP1hCDJqYR8uVGoyeP1pAeJRLx9m5ciq",
+      "amount": 1000000
+    },
+    "transfer": {
+      "sig": "49NqPC2nuN9w27FGF3M9PnddqQPWtJFJQ4ebP5aFh3hfBeaLAwmXfFXUZfnhQUSCDwwcKeyxYw663mkJoV9iY2oL",
+      "amount": 500000,
+      "expectedFee": 5000,
+      "expectedReceived": 495000
+    },
+    "burn": {
+      "sig": "3cwBWqRVoyfvE5XnTfc3mbRTvbYnnR2ZogVcZ1Rnb4ETsG4KMJhA885BxhvsuCDQ6A7M1nMyvPmVQ1AVrBkj2k2P",
+      "amount": 100000
+    },
+    "freeze": {
+      "sig": "44Hfez7HMcst6ooxXi8qsadyjANfSF3koPEyGkkL5WP5gcGyh9htSAEuvumPPXDdEMMM9RWtaJsrkPkShhmDCfjv"
+    },
+    "frozenRejection": {
+      "success": true
+    },
+    "thaw": {
+      "sig": "3A5ZDzJLnXTYwjhNphuTo2CiDC2E6fhv7N4EfZkrMuFGwFaj8Ec69BHHRFcUYKsZ9QMRBNx43drcbxPzG3hfyp2H"
+    },
+    "finalState": {
+      "supply": 900000,
+      "aliceBalance": 400000,
+      "bobBalance": 495000
+    }
+  },
+  "sysclock": {
+    "init": {
+      "sig": "5ZzmdEQ1YDshQHTRxS9sCaHKGRHmfcmULac4NpryxhDoaVaXVH3o7D5ErjeULrnZedQZuJ5sCzzuNAzTi679gxUU",
+      "account": "Ex6a1Hqu5UZugUR1aBevWLtEq5dKoFZ4tNMWq8RdudWV"
+    },
+    "tick": {
+      "sig": "3swAAb7CXqgUMqcM5EYdkue798dfNfHuf71DLBretMXxLPjoc6C1FU1UrutHWjNkFa46ijnNncp98UD15J38Ng6w"
+    },
+    "state": {
+      "isInitialized": 1,
+      "slot": 10420,
+      "epoch": 1,
+      "unixTimestampMs": 1732414800000,
+      "tickSequence": 1
+    }
+  },
+  "ram": {
+    "init": {
+      "sig": "3qDxyCTXgvrprzxSa6R2HS6hMUrXpHcN5EoCiPZc9C1RAn7XWStrRQUCJc1mBsozo4sWX5AxzGZmhWTqukcurVt2",
+      "account": "AfdtwadnBmcPEm9SjrULTkygwCdKWVCWjR5f35CMdDBa"
+    },
+    "write": {
+      "sig": "sEkK7mc2gQng2PQuWdNFuukiUDC5uUw6k1zW9pg9gxVeZoB11nzEtE2MD7wooEoCLG3AcX1sV2KhDYn4MqqJ8q5",
+      "offset": 16,
+      "payload": "DEEPMIND_ANTIGRAVITY_CUSTOM_RAM_V1_VERIFIED"
+    },
+    "state": {
+      "isInitialized": 1,
+      "allocatedSize": 256,
+      "readPayload": "DEEPMIND_ANTIGRAVITY_CUSTOM_RAM_V1_VERIFIE"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+[package]
+name = "fuzz_runner"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+custom_token = { path = "../custom_token" }
+custom_sysclock = { path = "../custom_sysclock" }
+custom_ram = { path = "../custom_ram" }
+
+[lints]
+workspace = true

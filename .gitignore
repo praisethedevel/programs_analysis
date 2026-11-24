@@ -1,0 +1,11 @@
+# Build artifacts
+target/
+**/target/
+*.dump
+soldecomp_*
+ghidra_*
+solazy_*
+*.log
+node_modules/
+.DS_Store
+/tmp/

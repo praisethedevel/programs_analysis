@@ -1,0 +1,14 @@
+[workspace]
+members = [
+    "custom_token",
+    "custom_sysclock",
+    "custom_ram",
+]
+exclude = [
+    "fuzz",
+    "fuzz_runner",
+]
+resolver = "2"
+
+[workspace.lints.rust]
+unexpected_cfgs = { level = "allow", check-cfg = ['cfg(target_os, values("solana"))'] }
