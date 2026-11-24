@@ -22,7 +22,11 @@ A suite of production-grade, zero-copy, memory-safe Solana sBPF on-chain program
 
 Inspect the live on-chain verification PDA with `solana-verify`:
 ```bash
-solana-verify get-program-pda --program-id CShaS9ezrJoEYBXsAk4bsUzL2pbxE14kAadgBCeXS7Z1 -s DeoN4qmakKDMfGHJ54FzQ4AGBXmNcfZRyuA5uvemsKWP -u devnet
+# Using explicit flags:
+solana-verify get-program-pda --program-id CShaS9ezrJoEYBXsAk4bsUzL2pbxE14kAadgBCeXS7Z1 --signer DeoN4qmakKDMfGHJ54FzQ4AGBXmNcfZRyuA5uvemsKWP -u devnet
+
+# Or using configured default keypair & cluster:
+solana-verify get-program-pda --program-id CShaS9ezrJoEYBXsAk4bsUzL2pbxE14kAadgBCeXS7Z1
 ```
 
 ---
