@@ -1,0 +1,29 @@
+{
+  "name": "@praisethedevel/programs-suite",
+  "version": "0.1.0",
+  "description": "TypeScript Client SDK for CustomToken, CustomSysclock, and CustomRAM Solana sBPF Suite",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "solana",
+    "sbpf",
+    "zero-copy",
+    "spl-token",
+    "oracle",
+    "ram"
+  ],
+  "author": "praisethedevel <xsolutionx@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "@solana/web3.js": "^1.95.0 || ^2.0.0 || ^3.0.0"
+  },
+  "devDependencies": {
+    "@solana/web3.js": "^1.95.8",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.4.0"
+  }
+}
